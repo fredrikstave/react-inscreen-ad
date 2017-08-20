@@ -1,0 +1,57 @@
+{
+  "name": "react-inscreen-ad",
+  "version": "1.0.0",
+  "description": "A React ad component that's only loaded when the content is inside the viewable screen area",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react-waypoint": "^7.0.4"
+  },
+  "peerDependencies": {
+    "eslint": "^2.4.0",
+    "react": "15.x"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.2",
+    "babel-jest": "^17.0.2",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-flow-vars": "^0.2.1",
+    "eslint-plugin-react": "^4.2.3",
+    "express": "^4.15.4",
+    "nwb": "0.17.x",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredrikstave/react-inscreen-ad.git"
+  },
+  "keywords": [
+    "React",
+    "Ad",
+    "Advertisement",
+    "Waypoint"
+  ],
+  "author": "Fredrik Stave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fredrikstave/react-inscreen-ad/issues"
+  },
+  "homepage": "https://github.com/fredrikstave/react-inscreen-ad#readme"
+}

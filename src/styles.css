@@ -1,0 +1,17 @@
+.ad {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.ad:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -20px;
+    content: 'ANNONSE';
+    text-align: center;
+    font-size: 12px;
+}
